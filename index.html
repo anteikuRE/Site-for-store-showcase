@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="logos/Intersect.svg" alt="" />
+      <div class="navbar__text">
+        <a href="" class="navbar__about">About</a>
+        <a href="" class="navbar__work">Work</a>
+        <a href="contacts.html" target="_blank">Contacts</a>
+      </div>
+      <div class="hamburger__menu__wrapper">
+        <div class="burger__text" style="display: none">
+          <a href="" class="navbar__about">About</a>
+          <a href="" class="navbar__work">Work</a>
+          <a href="contacts.html" target="_blank">Contacts</a>
+        </div>
+        <div class="burger" style="display: none">
+          <div class="lines__wrapper">
+            <div class="lines">
+              <div class="line line-1"></div>
+              <div class="line line-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero__text">
+        <h1>Heading</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum
+          porta nec tortor libero, gravida commodo, adipiscing adipiscing. Nulla
+          id ornare dui urna risus. Viverra ut sit mi mi libero id pellentesque
+          tempor faucibus. Ut sodales neque elit interdum tortor, posuere. In
+          massa mattis egestas a erat ligula vitae platea.
+        </p>
+      </div>
+      <button
+        type="button"
+        onclick="window.open( 'product.html', '_blank')"
+        class="hero__btn--tablet"
+      >
+        Learn more
+        <img src="logos/iconmonstr-arrow-right-thin 1.png" alt="" />
+      </button>
+      <div class="hero__img-wrapper">
+        <img class="hero__img" src="img/9-1.jpg" alt="" />
+        <button type="button" class="hero__btn">
+          Learn more
+          <img src="logos/iconmonstr-arrow-right-thin 1.png" alt="" />
+        </button>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="collection">
+        <h1>Collection Name</h1>
+        <div class="collection__wrapper">
+          <div class="product">
+            <img src="img/9-1.jpg" alt="" />
+            <h2>Name</h2>
+            <span>$23,000</span>
+          </div>
+          <div class="product">
+            <img src="img/2-1.jpg" alt="" />
+            <h2>Name</h2>
+            <span>$23,000</span>
+          </div>
+          <div class="product product--hidden">
+            <img src="img/3-1.jpg" alt="" />
+            <h2>Name</h2>
+            <span>$23,000</span>
+          </div>
+          <div class="product product--hidden">
+            <img src="img/4-1.jpg" alt="" />
+            <h2>Name</h2>
+            <span>$23,000</span>
+          </div>
+          <div class="product product--hidden">
+            <img src="img/5-1.jpg" alt="" />
+            <h2>Name</h2>
+            <span>$23,000</span>
+          </div>
+          <div class="find-helper"><div class="helper"></div></div>
+        </div>
+        <div class="collection__continue__wrap">
+          <button class="collection__continue">
+            <img src="./logos/arrow__products.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <div class="collection">
+        <h1>Collection Name</h1>
+        <div class="collection__wrapper">
+          <div class="product">
+            <img src="img/6-1.jpg" alt="" />
+            <h2>Name</h2>
+            <span>$23,000</span>
+          </div>
+          <div class="product">
+            <img src="img/7-1.jpg" alt="" />
+            <h2>Name</h2>
+            <span>$23,000</span>
+          </div>
+          <div class="product product--hidden">
+            <img src="img/8-1.jpg" alt="" />
+            <h2>Name</h2>
+            <span>$23,000</span>
+          </div>
+        </div>
+        <div class="collection__continue__wrap">
+          <button class="collection__continue">
+            <img src="./logos/arrow__products.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="collection__review">
+      <div class="collection__review__headings">
+        <h3>Some text</h3>
+        <h1>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. id pulvinar
+          erat feugiat
+        </h1>
+      </div>
+      <div class="modal__tab__container">
+        <div class="tabs__container">
+          <button type="submit" class="tabs tab-1 tab--active">
+            <span>01</span><span>Collection name</span>
+          </button>
+          <button type="submit" class="tabs tab-2">
+            <span>02</span><span>Collection name</span>
+          </button>
+          <button type="submit" class="tabs tab-3">
+            <span>03</span><span>Collection name</span>
+          </button>
+        </div>
+        <div class="collection__review__description description-1">
+          <div class="collection__review__description__image">
+            <!-- <img src="img/2-1.jpg" alt="" /> -->
+          </div>
+          <h3>Lorems, id pulvinar erat feugiat et. Fusce commodo, nibh</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            ultricies gravida orci, id pulvinar erat feugiat et. Fusce commodo,
+            nibhLorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Maecenas ultricies gravida orci, id pulvinar erat feugiat et. Fusce
+            commodo, nibhLorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Maecenas ultricies gravida orci, id pulvinar erat feugiat et.
+            Fusce commodo, nibh
+          </p>
+        </div>
+        <div class="collection__review__description description-2 hidden">
+          <div
+            class="collection__review__description__image"
+            style="background-image: url(img/2-1.jpg)"
+          >
+            <!-- <img src="img/2-1.jpg" alt="" /> -->
+          </div>
+          <h3>sce commodo, nibh</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            ultricies gravida orci, id pulvinar erat feugiat et. Fusce commodo,
+            nibhLorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Maecenas ultricies gravida orci, id pulvinar erat feugiat et. Fusce
+            commodo, nibhLorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Maecenas ultricies gravida orci, id pulvinar erat feugiat et.
+            Fusce commodo, nibh
+          </p>
+        </div>
+        <div class="collection__review__description description-3 hidden">
+          <div
+            class="collection__review__description__image"
+            style="background-image: url(img/3-1.jpg)"
+          >
+            <!-- <img src="img/2-1.jpg" alt="" /> -->
+          </div>
+          <h3>Lorems, =ibh</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            ultricies gravida orci, id pulvinar erat feugiat et. Fusce commodo,
+            nibhLorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Maecenas ultricies gravida orci, id pulvinar erat feugiat et. Fusce
+            commodo, nibhLorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Maecenas ultricies gravida orci, id pulvinar erat feugiat et.
+            Fusce commodo, nibh
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="clients-words">
+      <div class="clients-words__heading">
+        <h1>What our clients says</h1>
+
+        <span>Neque, pulvinar vestibulum non aliquam.</span>
+      </div>
+      <div class="clients-words__slider">
+        <div
+          class="clients-words__client client-1"
+          style="transform: translateX(0%)"
+        >
+          <p>
+            “Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa
+            maecenas nulla arcu lacus. Turpis porttitor.”
+          </p>
+          <div class="clients-words__client__profile">
+            <img src="logos/Avatar.svg" alt="" />
+            <div>
+              <h1>Courtney Henry</h1>
+              <span> Marketing Coordinator</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="clients-words__client client-2"
+          style="transform: translateX(100%)"
+        >
+          <p>
+            “Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa
+            maecenas nulla arcu lacus. Turpis porttitor.”
+          </p>
+          <div class="clients-words__client__profile">
+            <img src="logos/Avatar.svg" alt="" />
+            <div>
+              <h1>Marka kar</h1>
+              <span> Marketing Coordinator</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="clients-words__client client-3"
+          style="transform: translateX(200%)"
+        >
+          <p>
+            “Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa
+            maecenas nulla arcu lacus. Turpis porttitor.”
+          </p>
+          <div class="clients-words__client__profile">
+            <img src="logos/Avatar.svg" alt="" />
+            <div>
+              <h1>Officer K</h1>
+              <span> Marketing Coordinator</span>
+            </div>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">←</button>
+        <button class="slider__btn slider__btn--right">→</button>
+      </div>
+    </div>
+    <footer>
+      <div class="footer__main">
+        <div class="footer__rows__wrapper">
+          <div class="footer__rows">
+            <div class="footer__row">
+              <h1>Product</h1>
+              <a href="#" target="_blank">Diam orci</a>
+              <a href="#" target="_blank">Diam orci</a>
+              <a href="#" target="_blank">Diam orci</a>
+              <a href="#" target="_blank">Diam orci</a>
+              <a href="#" target="_blank">Diam orci</a>
+              <a href="#" target="_blank">Diam orci</a>
+            </div>
+            <div class="footer__row">
+              <h1>Information</h1>
+              <a href="#">Diam orci</a>
+              <a href="#">Diam orci</a>
+              <a href="#">Diam orci</a>
+              <a href="#">Diam orci</a>
+              <a href="#">Diam orci</a>
+              <a href="#">Diam orci</a>
+            </div>
+            <div class="footer__row">
+              <h1>Company</h1>
+              <a href="#">Diam orci</a>
+              <a href="#">Diam orci</a>
+              <a href="#">Diam orci</a>
+              <a href="#">Diam orci</a>
+              <a href="#">Diam orci</a>
+              <a href="#">Diam orci</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__logos navbar">
+          <!-- <img src="logos/logo_1-1 no back 1.svg" alt="" /> -->
+          <p style="color: #fff">&#169; 2022 Artem Lykhachevskyi</p>
+          <div class="footer__text navbar__text">
+            <a href="http://tiktok.com" target="_blank"
+              ><img src="logos/tiktok logo.svg" alt=""
+            /></a>
+            <a href="http://instagram.com" target="_blank"
+              ><img src="logos/inst logo.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
